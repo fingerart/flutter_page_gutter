@@ -2,8 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
 
 /// [DefaultPageController] builder
-typedef PageControllerBuilder =
-    Widget Function(BuildContext context, PageController controller);
+typedef PageControllerBuilder = Widget Function(
+    BuildContext context, PageController controller);
 
 /// Used to add gaps between each page of [PageView].
 ///
@@ -167,12 +167,12 @@ class DefaultPageController extends StatefulWidget {
     super.key,
     required Widget child,
     required PageController controller,
-  }) : _controller = controller,
-       _child = child,
-       _builder = null,
-       _initialPage = null,
-       _keepPage = null,
-       _viewportFraction = null;
+  })  : _controller = controller,
+        _child = child,
+        _builder = null,
+        _initialPage = null,
+        _keepPage = null,
+        _viewportFraction = null;
 
   /// By building the [PageController] internally, obtain the created
   /// [PageController] through [builder], which can be passed to [PageView].
@@ -182,12 +182,12 @@ class DefaultPageController extends StatefulWidget {
     bool keepPage = true,
     double viewportFraction = 1.0,
     required PageControllerBuilder builder,
-  }) : _child = null,
-       _controller = null,
-       _builder = builder,
-       _initialPage = initialPage,
-       _keepPage = keepPage,
-       _viewportFraction = viewportFraction;
+  })  : _child = null,
+        _controller = null,
+        _builder = builder,
+        _initialPage = initialPage,
+        _keepPage = keepPage,
+        _viewportFraction = viewportFraction;
 
   static PageController of(BuildContext context) {
     return maybeOf(context)!;

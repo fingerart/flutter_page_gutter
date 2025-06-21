@@ -6,6 +6,11 @@
 
 A flutter widget for handling PageView gaps.
 
+
+> [!TIP]
+> If this package is useful to you, please remember to give it a star✨ ([Pub](https://pub.dev/packages/flutter_page_gutter) | [GitHub](https://github.com/fingerart/flutter_page_gutter)).
+
+
 ## Preview
 
 ```text
@@ -20,7 +25,7 @@ A flutter widget for handling PageView gaps.
 
 ```yaml
 dependencies:
-  flutter_page_gutter: ^0.0.1
+  flutter_page_gutter: ^0.0.1+3
 ```
 
 ```dart
