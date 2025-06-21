@@ -1,10 +1,10 @@
 name: flutter_page_gutter
 description: "A flutter widget for handling PageView gaps."
-version: 0.0.1
+version: 0.0.1+1
 homepage: https://github.com/fingerart/flutter_page_gutter
 
 environment:
-  sdk: ^3.7.0
+  sdk: ^3.6.0
   flutter: '>=3.3.0'
 
 dependencies:
@@ -53,8 +53,8 @@ flutter:
   # https://flutter.dev/to/font-from-package
 
 screenshots:
-  - description: 'preview'
-    path: arts/preview.png
+  - description: 'page_gutter_preview'
+    path: arts/page_gutter_preview.jpg
 
 topics:
   - pageview
